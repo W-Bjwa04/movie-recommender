@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Recommender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Primeflix</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="welcome-section">
+      <h1>Welcome to the Movie Recommender</h1>
+      <p>Find your next favorite movie with personalized recommendations.</p>
+      
+      <!-- Search bar -->
+      <div class="search-bar">
+        <input type="text" placeholder="Enter a movie name..." id="movieSearch">
+        <button type="button" onclick="searchMovie()">Search</button>
+      </div>
+    </section>
+
+    <section class="movie-cards">
+      <div class="card">
+        <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5Y2a3isdO22b0ELsnwz0KoVGJ3h.jpg" alt="Raajneeti" class="card-image">
+        <h3>Raajneeti</h3>
+        <p>An intriguing political thriller about power, family, and ambition.</p>
+        <a href="#" class="btn">Read more →</a>
+      </div>
+
+      <div class="card">
+        <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/HqUJdDNYJx4UTdMTz7Ezu1bQwA.jpg" alt="Bachna Ae Haseeno" class="card-image">
+        <h3>Bachna Ae Haseeno</h3>
+        <p>A romantic drama that explores love and heartbreak through various relationships.</p>
+        <a href="#" class="btn">Read more →</a>
+      </div>
+
+      <div class="card">
+        <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/reEzvhfp85DTapHSPRzBULCXUuz.jpg" alt="Jab We Met" class="card-image">
+        <h3>Jab We Met</h3>
+        <p>A feel-good romantic comedy about self-discovery and love.</p>
+        <a href="#" class="btn">Read more →</a>
+      </div>
+
+      <div class="card">
+        <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/nymzAr2uEWxnDTfoIjUbh7a1UuB.jpg" alt="Wanted" class="card-image">
+        <h3>Wanted</h3>
+        <p>An action-packed thriller about a man with a dangerous past.</p>
+        <a href="#" class="btn">Read more →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Flowbite™. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Licensing</a>
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
